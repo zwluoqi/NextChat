@@ -185,12 +185,12 @@ export const useAppConfig = createPersistStore(
         model.available = true;
         modelMap[`${model.name}@${model?.provider?.id}`] = model;
       }
-
+      console.log('modelMap',modelMap);
       set(() => ({
         models: Object.values(modelMap),
       }));
     },
-
+    
     allModels() {},
   }),
   {
