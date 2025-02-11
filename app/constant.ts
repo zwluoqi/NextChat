@@ -536,59 +536,61 @@ const anthropicModels = [
 ];
 
 const baiduModels = [
-  "ernie-4.0-turbo-8k",
-  "ernie-4.0-8k",
-  "ernie-4.0-8k-preview",
-  "ernie-4.0-8k-preview-0518",
-  "ernie-4.0-8k-latest",
-  "ernie-3.5-8k",
-  "ernie-3.5-8k-0205",
-  "ernie-speed-128k",
-  "ernie-speed-8k",
-  "ernie-lite-8k",
-  "ernie-tiny-8k",
+  // "ernie-4.0-turbo-8k",
+  // "ernie-4.0-8k",
+  // "ernie-4.0-8k-preview",
+  // "ernie-4.0-8k-preview-0518",
+  // "ernie-4.0-8k-latest",
+  // "ernie-3.5-8k",
+  // "ernie-3.5-8k-0205",
+  // "ernie-speed-128k",
+  // "ernie-speed-8k",
+  // "ernie-lite-8k",
+  // "ernie-tiny-8k",
 ];
 
 const bytedanceModels = [
-  "Doubao-lite-4k",
-  "Doubao-lite-32k",
-  "Doubao-lite-128k",
-  "Doubao-pro-4k",
-  "Doubao-pro-32k",
-  "Doubao-pro-128k",
+  // "Doubao-lite-4k",
+  // "Doubao-lite-32k",
+  // "Doubao-lite-128k",
+  // "Doubao-pro-4k",
+  // "Doubao-pro-32k",
+  // "Doubao-pro-128k",
 ];
 
 const alibabaModes = [
-  "qwen-turbo",
-  "qwen-plus",
-  "qwen-max",
-  "qwen-max-0428",
-  "qwen-max-0403",
-  "qwen-max-0107",
-  "qwen-max-longcontext",
+  // "qwen-turbo",
+  // "qwen-plus",
+  // "qwen-max",
+  // "qwen-max-0428",
+  // "qwen-max-0403",
+  // "qwen-max-0107",
+  // "qwen-max-longcontext",
 ];
 
 const tencentModels = [
-  "hunyuan-pro",
-  "hunyuan-standard",
-  "hunyuan-lite",
-  "hunyuan-role",
-  "hunyuan-functioncall",
-  "hunyuan-code",
-  "hunyuan-vision",
+  // "hunyuan-pro",
+  // "hunyuan-standard",
+  // "hunyuan-lite",
+  // "hunyuan-role",
+  // "hunyuan-functioncall",
+  // "hunyuan-code",
+  // "hunyuan-vision",
 ];
 
-const moonshotModes = ["moonshot-v1-8k", "moonshot-v1-32k", "moonshot-v1-128k"];
+const moonshotModes = [
+  // "moonshot-v1-8k", "moonshot-v1-32k", "moonshot-v1-128k"
+];
 
 const iflytekModels = [
-  "general",
-  "generalv3",
-  "pro-128k",
-  "generalv3.5",
-  "4.0Ultra",
+  // "general",
+  // "generalv3",
+  // "pro-128k",
+  // "generalv3.5",
+  // "4.0Ultra",
 ];
 
-const deepseekModels = ["deepseek-chat", "deepseek-coder", "deepseek-reasoner"];
+const deepseekModels = ["deepseek-chat", "deepseek-coder", "deepseek-reasoner","deepseek-r1","deepseek-v3"];
 
 const xAIModes = [
   "grok-beta",
@@ -602,40 +604,40 @@ const xAIModes = [
 ];
 
 const chatglmModels = [
-  "glm-4-plus",
-  "glm-4-0520",
-  "glm-4",
-  "glm-4-air",
-  "glm-4-airx",
-  "glm-4-long",
-  "glm-4-flashx",
-  "glm-4-flash",
-  "glm-4v-plus",
-  "glm-4v",
-  "glm-4v-flash", // free
-  "cogview-3-plus",
-  "cogview-3",
-  "cogview-3-flash", // free
-  // 目前无法适配轮询任务
-  //   "cogvideox",
-  //   "cogvideox-flash", // free
+  // "glm-4-plus",
+  // "glm-4-0520",
+  // "glm-4",
+  // "glm-4-air",
+  // "glm-4-airx",
+  // "glm-4-long",
+  // "glm-4-flashx",
+  // "glm-4-flash",
+  // "glm-4v-plus",
+  // "glm-4v",
+  // "glm-4v-flash", // free
+  // "cogview-3-plus",
+  // "cogview-3",
+  // "cogview-3-flash", // free
+  // // 目前无法适配轮询任务
+  // //   "cogvideox",
+  // //   "cogvideox-flash", // free
 ];
 
 const siliconflowModels = [
-  "Qwen/Qwen2.5-7B-Instruct",
-  "Qwen/Qwen2.5-72B-Instruct",
-  "deepseek-ai/DeepSeek-R1",
-  "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-  "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
-  "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-  "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-  "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-  "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-  "deepseek-ai/DeepSeek-V3",
-  "meta-llama/Llama-3.3-70B-Instruct",
-  "THUDM/glm-4-9b-chat",
-  "Pro/deepseek-ai/DeepSeek-R1",
-  "Pro/deepseek-ai/DeepSeek-V3",
+  // "Qwen/Qwen2.5-7B-Instruct",
+  // "Qwen/Qwen2.5-72B-Instruct",
+  // "deepseek-ai/DeepSeek-R1",
+  // "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+  // "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+  // "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+  // "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+  // "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+  // "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+  // "deepseek-ai/DeepSeek-V3",
+  // "meta-llama/Llama-3.3-70B-Instruct",
+  // "THUDM/glm-4-9b-chat",
+  // "Pro/deepseek-ai/DeepSeek-R1",
+  // "Pro/deepseek-ai/DeepSeek-V3",
 ];
 
 let seq = 1000; // 内置的模型序号生成器从1000开始
@@ -662,28 +664,28 @@ export const DEFAULT_MODELS = [
   //     sorted: 2,
   //   },
   // })),
-  // ...googleModels.map((name) => ({
-  //   name,
-  //   available: true,
-  //   sorted: seq++,
-  //   provider: {
-  //     id: "openai",
-  //     providerName: "OpenAI",
-  //     providerType: "openai",
-  //     sorted: 3,
-  //   },
-  // })),
-  // ...anthropicModels.map((name) => ({
-  //   name,
-  //   available: true,
-  //   sorted: seq++,
-  //   provider: {
-  //     id: "openai",
-  //     providerName: "OpenAI",
-  //     providerType: "openai",
-  //     sorted: 4,
-  //   },
-  // })),
+  ...googleModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+      sorted: 3,
+    },
+  })),
+  ...anthropicModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+      sorted: 4,
+    },
+  })),
   // ...baiduModels.map((name) => ({
   //   name,
   //   available: true,
@@ -772,17 +774,17 @@ export const DEFAULT_MODELS = [
   //     sorted: 12,
   //   },
   // })),
-  // ...deepseekModels.map((name) => ({
-  //   name,
-  //   available: true,
-  //   sorted: seq++,
-  //   provider: {
-  //     id: "openai",
-  //     providerName: "OpenAI",
-  //     providerType: "openai",
-  //     sorted: 13,
-  //   },
-  // })),
+  ...deepseekModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++,
+    provider: {
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
+      sorted: 13,
+    },
+  })),
   // ...siliconflowModels.map((name) => ({
   //   name,
   //   available: true,
