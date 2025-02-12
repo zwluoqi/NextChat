@@ -816,5 +816,5 @@ export const internalAllowedWebDavEndpoints = [
 
 export const DEFAULT_GA_ID = "G-89WN60ZK2E";
 
-export const SAAS_CHAT_URL = "https://ai-chat.cyberclaude.com/chat";
-export const SAAS_CHAT_UTM_URL = "https://ai-chat.cyberclaude.com/chat?utm=github";
+export const SAAS_CHAT_URL = "https://vector-chat.xqtd520qidong.com/chat";
+export const SAAS_CHAT_UTM_URL = "https://vector-chat.xqtd520qidong.com/chat?utm=github";
